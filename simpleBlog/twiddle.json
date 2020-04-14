@@ -1,0 +1,22 @@
+{
+  "version": "0.17.0",
+  "EmberENV": {
+    "FEATURES": {},
+    "_TEMPLATE_ONLY_GLIMMER_COMPONENTS": false,
+    "_APPLICATION_TEMPLATE_WRAPPER": true,
+    "_JQUERY_INTEGRATION": true
+  },
+  "options": {
+    "use_pods": false,
+    "enable-testing": false
+  },
+  "dependencies": {
+    "jquery": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js",
+    "ember": "3.17.0",
+    "ember-template-compiler": "3.17.0",
+    "ember-testing": "3.17.0"
+  },
+  "addons": {
+    "@glimmer/component": "1.0.0"
+  }
+}

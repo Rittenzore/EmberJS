@@ -1,0 +1,7 @@
+<section class="comments">
+{{#each model as |comment|}}
+ {{comment-component name=comment.name
+   photo=comment.photo text=comment.text}}
+ {{/each}}
+  </section>​
+  {{input value=text enter="update" placeholder='Enter Comment'}}
